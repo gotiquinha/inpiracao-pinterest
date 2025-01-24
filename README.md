@@ -94,7 +94,7 @@ npm run dev
 ## 🌟 Funcionalidades
 
 - ✅ Autenticação de usuários
-- ✅ Feed de pins com scroll infinito
+- ✅ Feed de pins com scroll finito
 - ✅ Categorias de conteúdo
 - ✅ Salvamento de pins
 - ✅ Curtidas em pins
