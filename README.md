@@ -68,30 +68,6 @@ src/
     └── firebase.ts       # Configuração do Firebase
 ```
 
-## 🔒 Segurança e Boas Práticas
-
-1. **Variáveis de Ambiente**
-   - Crie um arquivo `.env.local` para variáveis sensíveis
-   - Nunca commite o `.env.local` no Git
-   - Exemplo de `.env.local`:
-   ```env
-   NEXT_PUBLIC_FIREBASE_API_KEY=sua_chave
-   NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=seu_dominio
-   NEXT_PUBLIC_FIREBASE_PROJECT_ID=seu_projeto
-   NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=seu_bucket
-   NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=seu_sender_id
-   NEXT_PUBLIC_FIREBASE_APP_ID=seu_app_id
-   ```
-
-2. **Arquivos a Ignorar**
-   Adicione ao `.gitignore`:
-   ```
-   .env.local
-   .env.*.local
-   node_modules/
-   .next/
-   *.log
-   ```
 
 ## 🐛 Problemas Comuns e Soluções
 
