@@ -68,25 +68,6 @@ src/
     └── firebase.ts       # Configuração do Firebase
 ```
 
-
-## 🐛 Problemas Comuns e Soluções
-
-1. **Erro de Hidratação**
-   - **Problema**: Diferenças entre renderização servidor/cliente
-   - **Solução**: Uso do estado `mounted` e renderização condicional
-
-2. **Erro de Metadata com "use client"**
-   - **Problema**: Metadata não pode ser exportado de componentes cliente
-   - **Solução**: Separação em arquivos diferentes (layout.tsx e metadata.ts)
-
-3. **Problemas de Autenticação**
-   - **Problema**: Estado de autenticação inconsistente
-   - **Solução**: Uso do AuthContext e react-firebase-hooks
-
-4. **Problemas de Persistência**
-   - **Problema**: Perda de dados ao recarregar
-   - **Solução**: Uso do localStorage com PinsContext
-
 ## 🚀 Como Executar
 
 1. Clone o repositório
@@ -143,12 +124,3 @@ O projeto é totalmente responsivo, adaptando-se a diferentes tamanhos de tela:
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-## 👥 Autores
-
-- Seu Nome - [GitHub](https://github.com/seu-usuario)
-
-## 🙏 Agradecimentos
-
-- Inspirado no Pinterest
-- Comunidade Next.js
-- Comunidade Firebase 
